@@ -2,3 +2,41 @@ h3{
     color: blue;
     background-color:pink;
 }
+
+image{
+            width: 250px;
+            /*border images*/
+        }
+        .border_image1{
+            border: 4px solid red;
+            border-radius: 10px;
+        }
+        .border_image2{
+            border: 8px double blue;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 50px;
+        }
+        .border_image3{
+            border: 8px double red;
+            border-radius: 120px 150px 90px 20px;
+        }
+        .border_image4{
+            border: 8px solid blue;
+            border-color: blue brown red gold;
+        }
+        .border_image5{
+            border: 8px dotted red;
+        }
+       /* .border_image6{
+            border:  50px 20px 50px 20px ;
+            border-color: green red yellow blue;
+        }*/
+
+        /*box model*/
+      /*  .box_model1{
+            border: 4px solid red;
+            padding: 30px;
+            margin: 60px;
+        }*/
