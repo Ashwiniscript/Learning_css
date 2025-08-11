@@ -21,11 +21,10 @@
         }
         .flex-container{
             display: flex;
-            background-color: yellow;
-            flex-direction: row;
+flex-direction: row-reverse;
             flex-wrap: wrap;
 /*   center,space-evenly, space-between ,space-around*/
-            justify-content: space-evenly;
+            justify-content: center;
             align-items: center;
         }
         
@@ -33,25 +32,17 @@
     </style>
 </head>
 <body>
-    <div class="flex-items">
-    <div class="box box1"></div>
-    <div class="box box2"></div>
-    <div class="box box3"></div>
-    <div class="box box4"></div>
-    <div class="box box5"></div>
-    </div>
-
-    <!-- <div class="flex-items">
-  <div style="order: 3">1</div>
-  <div style="order: 2">2</div>
-  <div style="order: 4">3</div>
-  <div style="order: 1">4</div>
-</div>
-    <div class="flex-container">
-  <div style="order: 3">1</div>
-  <div style="order: 2">2</div>
-  <div style="order: 4">3</div>
-  <div style="order: 1">4</div>
-</div> -->
+    <ul class="flex-container">
+        <li class="flex-items">1</li>
+        <li class="flex-items">2</li>
+        <li class="flex-items">3</li>
+        <li class="flex-items">4</li>
+        <li class="flex-items">5</li>
+        <li class="flex-items">6</li>
+        <li class="flex-items">7</li>
+        <li class="flex-items">8</li>
+        <li class="flex-items">9</li>
+        <li class="flex-items">10</li>
+    </ul>
 </body>
 </html>
