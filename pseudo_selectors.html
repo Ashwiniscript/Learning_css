@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* pseudo selector*/
+        h1{
+            color: red;
+        }
+        h1:hover{
+            color: blue;
+            background-color: yellow;
+            font-size: 70px;
+        }
+        input:focus{
+            background-color: yellow;
+            color: red;
+        }
+        a:visited{
+            color: green;
+        }
+        p::first-letter{
+            color: red;
+            font-size: 30px;
+        }
+        p::first-line{
+            color: blue;
+        }
+        h2::selection{
+            color: red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Name">
+    <h1> Hello Ashwini</h1>
+    <a href="https://www.w3schools.com/">click here</a>
+    <a href="https://www.google.com/">click here 2</a>
+
+    <!-- Pseudo element -->
+     <h2>A paragraph is a distinct unit of writing, composed of one or more sentences, that focuses on a single idea or topic. It's a way to organize and structure written work, making it easier for readers to follow the author's thoughts. Paragraphs typically begin with an indentation of the first line.</h2>
+     <h3>A paragraph is a distinct unit of writing, composed of one or more sentences, that focuses on a single idea or topic. It's a way to organize and structure written work, making it easier for readers to follow the author's thoughts. Paragraphs typically begin with an indentation of the first line.</h3>
+     <!-- <h1>A paragraph is a distinct unit of writing, composed of one or more sentences, that focuses on a single idea or topic. It's a way to organize and structure written work, making it easier for readers to follow the author's thoughts. Paragraphs typically begin with an indentation of the first line.</h1> -->
+     <p>
+        A paragraph is a distinct unit of writing, composed of one or more sentences, that focuses on a single idea or topic. It's a way to organize and structure written work, making it easier for readers to follow the author's thoughts. Paragraphs typically begin with an indentation of the first line.
+     </p>
+</body>
+</html>
