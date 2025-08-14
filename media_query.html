@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+/* Media Querymobile first,we start from the smallest viweport width*/
+        @media (min-width :320px) and (max-width: 767px) {
+            body{
+                font-size: 20px;
+                background-color: pink;
+                padding: 10px;
+
+            }
+            p{
+                display: none;
+            }
+            h1,h3{
+                color: black;
+                
+            }
+            .img1{
+                display: none;
+                border: 8px pink double;
+            }
+        }
+        /*from 768px and up */
+         @media (min-width :768px) {
+            body{
+                
+                background-color: green;
+                
+            }
+          }
+           /*from 1024px and up */
+         @media (min-width :1024px) {
+            body{
+                
+                background-color: yellow;
+            
+            }
+          }
+          /*from 1224px and up */
+         @media (min-width :1224px) {
+            body{
+                
+                background-color: orange;
+            
+            }
+          }
+          /*from 1824px and up */
+         @media (min-width :1824px) {
+            body{
+                
+                background-color: aqua;
+            
+            }
+          }
+          /*max-width query*/
+          /*from 850px and up, until 950px */
+         @media (min-width :850px) and (max-width: 950px) {
+            body{
+                
+                background-color: purple;
+            
+            }
+            h1,h3{
+                color: aqua;
+                font-size: 100px;
+            }
+            .img1{
+                display: none;
+            }
+          }
+          
+    </style>
+</head>
+<body>
+    <h1>CSS Media Queries</h1>
+    <p>The background will change according to the viewport width change.</p><br><br>
+    <img class="img1" src="Images/flower.jpg" alt="flower">
+    <h3>Smartphones - <span class="details">from 320px and up </span>(min-width: 320px)</h3>
+    
+        <p>BLUE</p><br>
+        <h3>Tables, ipads (portait) - <span class="details"> from 768px and up </span>(min-width: 768px)</h3>
+
+        <p>GREEN</p><br>
+
+         <h3>Tables, ipads (landscape) - <span class="details"> from 1024px and up </span>(min-width: 1024px)</h3>
+        <p>YELLOW</p><br>
+
+        <h3>Desktops and Laptops - <span class="details"> from 1224x and up </span>(min-width: 1224px)</h3>
+        <p>ORANGE</p><br>
+
+         <h3>Large screens - <span class="details"> from 1824px and up </span>(min-width: 1824px)</h3>
+        <p>AQUA (zoom out if needed [Ctrl 7 -])</p><br>
+       
+         <h3>Custom Media query - <span class="details"> from 850px and up , until 950px </span>(min-width: 850px) and (max-width:950)</h3>
+        <p>PURPLE (zoom out if needed [Ctrl & -])</p><br>
+       
+       
+</body>
+</html>
